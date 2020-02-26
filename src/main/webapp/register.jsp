@@ -73,15 +73,15 @@
 </td>
 <td><input type="email" name ="mail" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" required/>
 </td>
-<td><h3 >Enter Height:</h3>
+<td><h3 >Enter Height(ft):</h3>
 </td>
-<td><input type="float" name="height" maxlength="3" required/>
+<td><input type="float" name="height"  required/>
 </td>
 </tr>
 <tr>
 <td><h3 >Enter Education:</h3>
 </td>
-<td><input type="text" name="education" pattern="^[a-zA-Z]+$" required autofocus/>
+<td><input type="text" name="education"  required autofocus/>
 </td>
 <td><h3 ><label for="marital">Choose your Marital Status:</label></h3>
 </td>
@@ -98,7 +98,7 @@
 <tr>
 <td><h3 >Enter Occupation:</h3>
 </td>
-<td><input type="text" name="occup" pattern="^[a-zA-Z]+$" required autofocus/>
+<td><input type="text" name="occup"  required autofocus/>
 </td>
 
 <td><h3 >Enter Salary:</h3>
